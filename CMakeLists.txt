@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(sample)
+add_library(channel STATIC channel.c)
+#include_directories(pool.h)
+add_executable(sample sample.c)
+target_link_libraries(sample channel pthread)
