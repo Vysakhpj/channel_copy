@@ -1,2 +1,3 @@
-# channel copy
+# Channel Copy
 This is a project which copies raw data from one file to another file using a channel buffer which is similar to that of a copy function. The user has the freedom to chose the length of the buffer, length of the string that has to be written into the channel buffer from the source file and the length of the string to read from the channel buffer and write to the destination file.
+I have a [Sample Program](https://github.com/Vysakhpj/channel_copy/blob/master/sample.c) which drives the channel copy program.In my sample program data generator API which reads raw data from source file in binary format and passes the raw data to channel buffer. And i have a print API which collects the raw data of user defined length from the channel buffer and writes it to the destination file.
