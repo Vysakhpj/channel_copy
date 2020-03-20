@@ -4,4 +4,4 @@ I have a [Sample Program](https://github.com/Vysakhpj/channel_copy/blob/master/s
 I have a [Channel Copy program](https://github.com/Vysakhpj/channel_copy/blob/master/channel.c) which does the main functionality. I have a channel_create API which creates a channel buffer of user specified size which is used for storing the raw data. A channel_read API which copies the data into the channel buffer and a channel_write which takes the data from the chaannel buffer and pass the data to the sample program to write to the destination file.
 
 ## Build
-I have created a [CMAKE File](https://github.com/Vysakhpj/channel_copy/blob/master/CMakeLists.txt)which can be used to compile the program. I have created a static library for channel copy program and i have linked to the sample program.
+I have created a [CMAKE File](https://github.com/Vysakhpj/channel_copy/blob/master/CMakeLists.txt) which can be used to compile the program. I have created a static library for channel copy program and i have linked to the sample program.
