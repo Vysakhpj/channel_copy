@@ -48,4 +48,4 @@ Is_Close API continuosly checks the status of the flag which is being raised the
 
 
 ## Build
-I have created a [CMAKE File](https://github.com/Vysakhpj/channel_copy/blob/master/CMakeLists.txt) which can be used to compile the program. I have created a static library for channel copy program and i have linked to the sample program.
+A [CMAKE File](https://github.com/Vysakhpj/channel_copy/blob/master/CMakeLists.txt) which can be used to compile the program. I have created a static library for channel copy program and it is linked to the sample program.
