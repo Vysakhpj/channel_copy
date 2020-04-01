@@ -3,7 +3,7 @@ This is a project which uses a circular channel buffer to read and write data in
 A [Sample Program](https://github.com/Vysakhpj/channel_copy/blob/master/sample.c) which drives the channel copy program.In this sample program, data generator API reads raw data from source file in binary format and passes the raw data to channel buffer. And a Print API which collects the raw data of user defined length from the channel buffer and writes it to the destination file.
 A [Channel Copy program](https://github.com/Vysakhpj/channel_copy/blob/master/channel.c) which does the main functionality. 
 
-### API GUIDE
+## API GUIDE
 
 #### Creating Channel
 
